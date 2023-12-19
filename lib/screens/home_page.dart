@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
         }
 
         // Navigate to CityWeatherDetail screen
-        _navigateToCityWeatherDetail(weather);
+       // _navigateToCityWeatherDetail(weather);
       } else {
         throw Exception('Failed to load weather data for $cityName');
       }
